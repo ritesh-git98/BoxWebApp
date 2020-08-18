@@ -145,6 +145,9 @@ body{
    body{
        height: 100vh;
    }
+    #header{
+        height:50px;
+    }
     #landing-section{
         width: 120%;
         margin: 20px 30px;
