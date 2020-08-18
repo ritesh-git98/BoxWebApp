@@ -173,6 +173,9 @@ body{
     #left-section{
         width: 90%;
     }
+    #heading{
+        margin:20px;
+    }
     #right-section{
         margin-top: 20px ;
         width: 100%;
