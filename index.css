@@ -142,12 +142,14 @@ body{
     margin-bottom: 24px;
 }
 @media  (max-width: 600px){
-    body{
-        overflow: hidden;
-    }
+   body{
+       height: 100vh;
+   }
     #landing-section{
-        width: 100%;
-        margin: 50px auto;
+        width: 120%;
+        margin: 20px 30px;
+        flex-wrap: wrap;
+
     }
     #menu-items-wrapper{
         display: none;
@@ -162,14 +164,20 @@ body{
     }
     #container{
         flex-direction: column;
+
+    align-items: center;
     }
     #left-section{
         margin-top: 20px ;
-        width: 100%;
+        width: 90%;
     }
     #right-section{
         margin-top: 20px ;
         width: 100%;
+    }
+    #right-section > img{
+        height: 260px;
+        
     }
     #bottom-container{
         display: none;
